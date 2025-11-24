@@ -3,12 +3,12 @@
 #include <thread>
 #include <chrono>
 #include "Connection.h"
-#include <cstring> // memset vb. için
+#include <cstring>
 
 // Linux'ta USB portları genelde /dev/ttyUSB0 veya /dev/ttyACM0 olur.
 // Windows'ta ise "COM3", "COM4" şeklinde string verilir (Windows uyarlaması gerekir).
 #define PORT_NAME "/dev/ttyUSB0"
-#define BAUD_RATE 9600
+#define BAUD_RATE 57600
 
 int main()
 {
