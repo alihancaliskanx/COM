@@ -2,7 +2,7 @@
 #include <iostream>
 #include <thread>
 #include <chrono>
-#include "Connection.h"
+#include "../Include/Connection.h"
 #include <cstring>
 
 // Linux'ta USB portları genelde /dev/ttyUSB0 veya /dev/ttyACM0 olur.
